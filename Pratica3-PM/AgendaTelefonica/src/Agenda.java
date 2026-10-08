@@ -30,7 +30,7 @@ public class Agenda {
             
             for(Contato contato : contatos){
                 if(contato.getIdContato().equals(id) ){
-                    contatos.remove(contato);
+                    contatos.remove(contato); 
                     System.out.println("Contato removido com sucesso!");
                     break;
                 }
