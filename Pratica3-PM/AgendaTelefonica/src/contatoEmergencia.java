@@ -2,9 +2,9 @@
  * contatoEmergencia
  */
 public class contatoEmergencia extends Contato {
-    public contatoEmergencia(String nome, String email, String telefone, Contato contatoPessoal,
+    public contatoEmergencia(String id, String nome, String email, String telefone, Contato contatoPessoal,
             Contato contatoProfissional, Contato contatoEmergencia, Numero grauPrioridade, String observacao) {
-        super(nome, email, telefone);// contatoPessoal, contatoProfissional, contatoEmergencia
+        super(id, nome, email, telefone);// contatoPessoal, contatoProfissional, contatoEmergencia
         this.grauPrioridade = grauPrioridade;
         this.observacao = observacao;
     }

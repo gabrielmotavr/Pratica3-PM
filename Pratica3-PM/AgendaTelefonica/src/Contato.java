@@ -1,4 +1,5 @@
 public class Contato{
+    private String idContato;
     private String nome;
     private String email;
     private String telefone;
@@ -6,13 +7,20 @@ public class Contato{
     private Contato contatoProfissional = new ContatoProfissional();
     private Contato contatoEmergencia = new contatoEmergencia();*/
 
-    public Contato(String nome, String email, String telefone) {
+    public Contato(String idContato, String nome, String email, String telefone) {
+        this.idContato = idContato;
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
         //this.contatoPessoal = contatoPessoal;
         //this.contatoProfissional = contatoProfissional;
         //this.contatoEmergencia = contatoEmergencia;
+    }
+    public String getIdContato() {
+        return idContato;
+    }
+    public void setIdContato(String idContato) {
+        this.idContato = idContato;
     }
     public String getNome() {
         return nome;

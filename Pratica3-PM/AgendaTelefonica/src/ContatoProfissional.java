@@ -6,9 +6,9 @@ private String empresa;
 private String cargo;
 
 
-    public ContatoProfissional(String nome, String email, String telefone, Contato contatoPessoal,
+    public ContatoProfissional(String id,String nome, String email, String telefone, Contato contatoPessoal,
             Contato contatoProfissional, Contato contatoEmergencia) {
-        super(nome, email, telefone);// contatoPessoal, contatoProfissional, contatoEmergencia
+        super(id, nome, email, telefone);// contatoPessoal, contatoProfissional, contatoEmergencia
     }
 
 

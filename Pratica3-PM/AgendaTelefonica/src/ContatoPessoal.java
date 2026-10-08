@@ -1,6 +1,6 @@
 public class ContatoPessoal extends Contato {
-    public ContatoPessoal(String nome, String email, String telefone);// Contato contatoPessoal,Contato contatoProfissional, Contato contatoEmergencia {
-        super(nome, email, telefone);//contatoPessoal, contatoProfissional, contatoEmergencia;
+    public ContatoPessoal(String id, String nome, String email, String telefone){// Contato contatoPessoal,Contato contatoProfissional, Contato contatoEmergencia {
+        super(id, nome, email, telefone);//contatoPessoal, contatoProfissional, contatoEmergencia;
     }
 
     private String dataAdicional;
